@@ -1,4 +1,9 @@
 export { parseMeta, attachMeta } from './rehype'
 export { remarkHeadings } from './remark-headings'
+export { remarkRemoveImports } from './remark-remove-imports'
+export {
+  remarkLinkRewrite,
+  type RemarkLinkRewriteOptions
+} from './remark-link-rewrite'
 export { remarkStaticImage } from './static-image'
 export { structurize } from './structurize'

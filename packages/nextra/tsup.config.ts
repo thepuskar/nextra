@@ -9,14 +9,14 @@ const { target } = tsconfig.compilerOptions
 export default defineConfig([
   {
     name: 'nextra',
-    entry: ['src/index.js', 'src/__temp__.js'],
+    entry: ['src/index.js', 'src/__temp__.js', 'src/catch-all.ts'],
     format: 'cjs',
     dts: false,
     target
   },
   {
     name: 'nextra-esm',
-    entry: ['src/**/*.ts', 'src/**/*.tsx'],
+    entry: ['src/**/*.ts', 'src/**/*.tsx', '!src/**/*.d.ts', '!src/catch-all.ts'],
     format: 'esm',
     dts: true,
     target,
