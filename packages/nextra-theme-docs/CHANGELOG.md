@@ -1,5 +1,11 @@
 # nextra-theme-docs
 
+## 2.2.10
+
+### Patch Changes
+
+- 0c957db: fix capitalizing of undefined \_meta.json file/folders
+
 ## 2.2.9
 
 ## 2.2.8

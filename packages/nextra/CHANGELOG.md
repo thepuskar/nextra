@@ -1,5 +1,12 @@
 # nextra
 
+## 2.2.10
+
+### Patch Changes
+
+- 0c957db: fix capitalizing of undefined \_meta.json file/folders
+- d0b9249: fix subpath import failed
+
 ## 2.2.9
 
 ### Patch Changes
